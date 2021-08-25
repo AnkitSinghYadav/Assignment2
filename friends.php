@@ -3,7 +3,7 @@ require 'functions/functions.php';
 session_start();
 // Check whether user is logged on or not
 if (!isset($_SESSION['user_id'])) {
-    header("location:index.php");
+    header("location:index.html");
 }
 // Establish Database Connection
 $conn = connect();
